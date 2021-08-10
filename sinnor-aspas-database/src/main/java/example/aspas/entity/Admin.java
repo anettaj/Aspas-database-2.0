@@ -8,9 +8,6 @@ public class Admin {
 	@Column
 	private int user_id;
 	// defining id as column ID
-	@Column
-	private String status;
-	// defining status as column name
 	@Id
 	@Column
 	private int admin_id;
@@ -23,12 +20,6 @@ public class Admin {
 	}
 	public void setUser_id(int user_id) {
 		this.user_id = user_id;
-	}
-	public String getStatus() {
-		return status;
-	}
-	public void setStatus(String status) {
-		this.status = status;
 	}
 	public int getAdmin_id() {
 		return admin_id;
@@ -44,13 +35,12 @@ public class Admin {
 	}
 	@Override
 	public String toString() {
-		return "Admin [user_id=" + user_id + ", status=" + status + ", admin_id=" + admin_id + ", admin_passwd="
+		return "Admin [user_id=" + user_id + ",admin_id=" + admin_id + ", admin_passwd="
 				+ admin_passwd + "]";
 	}
-	public Admin(int user_id, String status, int admin_id, String admin_passwd) {
+	public Admin(int user_id, int admin_id, String admin_passwd) {
 		super();
 		this.user_id = user_id;
-		this.status = status;
 		this.admin_id = admin_id;
 		this.admin_passwd = admin_passwd;
 	}
