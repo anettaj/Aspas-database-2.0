@@ -1,0 +1,42 @@
+
+*user table*
+____________
+[
+    {
+        "user_id": 0,
+        "adharNo": 0,
+        "address": null,
+        "lnNo": 0,
+        "mobileNo": 0,
+        "status": null
+    }
+]
+-------------------------------------------
+
+*guest table*
+_____________
+
+[
+    {
+        "guest_id": 1,
+        "guest_name": "man",
+        "mobileNo": 60711
+    }
+]
+
+-------------------------------------------
+
+*admin table*
+_____________
+
+[
+    {
+        "user_id": 1,
+        "status": "kk",
+        "admin_id": 1,
+        "admin_passwd": "black"
+    }
+]
+
+--------------------------------------------
+
