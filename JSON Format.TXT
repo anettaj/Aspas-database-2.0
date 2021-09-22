@@ -32,7 +32,6 @@ _____________
 [
     {
         "user_id": 1,
-        "status": "kk",
         "admin_id": 1,
         "admin_passwd": "black"
     }
